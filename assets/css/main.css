@@ -1,0 +1,195 @@
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --space: 3rem;
+    --gutter-vertical: 3rem;
+}
+
+
+html {
+    font-size: 62%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 195, 195);
+}
+
+
+.row {
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+
+
+[class^="col-"]:not(:last-child) {
+    margin-right: var(--space);
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0 1rem;
+}
+
+.row:not(:last-child) {
+    margin-bottom: var(--gutter-vertical, 20px);
+}
+
+.col-2-of-4 {
+    width: calc(2 * (100% - var(--space)) /4);
+}
+
+
+
+.left-main, .right-main {
+    background-color: rgb(250, 249, 249);
+    border-radius: 1rem;
+    padding: 2rem 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+
+}
+
+.today, .tomorrow {
+    float: left;
+    margin-bottom: 3rem;
+}
+
+.today {
+    width: 30%;
+    padding: 1rem 3rem;
+
+}
+
+.tomorrow {
+    width: 70%;
+}
+
+.t1, .t2 {
+    float: left;
+    padding: 1rem 3rem;
+    width: 50%;
+    margin: 0;
+}
+
+.t1 {
+    padding-right: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 0;
+    background-color: rgb(230, 228, 228);
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.p {
+    padding: 1rem 3rem;
+}
+
+table {
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+td {
+    padding: 1.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.than {
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    font-weight: bold;
+}
+
+.year {
+    padding: 0 11rem;
+}
+
+thead, .grey {
+    color: grey;
+}
+
+tbody {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    border: 2px solid rgb(137, 137, 230);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    
+}
+
+.blue1 {
+    color: rgb(233, 232, 232);
+    background-color:  blue;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+}
+
+.btn-primary, .btn-secondary {
+    float: left;
+    width: 50%;
+}
+
+.add {
+    background-color: transparent;
+    text-align: left;
+    font-weight: bold;
+}
+
+.plus {
+    font-weight: bolder;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.btn-btn {
+    padding: 2rem;
+    padding-bottom: 0;
+    padding-left: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.primary, .secondary {
+    padding: 1.5rem 3rem;
+    background-color: rgb(230, 228, 228);
+    border-radius: 1rem;
+    width: 90%;
+}
+
+.secondary {
+    color: rgb(233, 232, 232);
+    background-color:  blue;
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
