@@ -4,7 +4,6 @@
 
 :root {
     --space: 3rem;
-    --gutter-vertical: 3rem;
 }
 
 
@@ -34,7 +33,7 @@ body {
 }
 
 .row:not(:last-child) {
-    margin-bottom: var(--gutter-vertical, 20px);
+    margin-bottom: var(--space, 20px);
 }
 
 .col-2-of-4 {
