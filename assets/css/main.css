@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: rgb(211, 195, 195);
+    background-color: #cfd8dc;
 }
 
 
@@ -80,7 +80,7 @@ p {
     font-size: 1.5rem;
     text-transform: capitalize;
     margin: 0;
-    background-color: rgb(230, 228, 228);
+    background-color: #f1f2f4;
     border-radius: .5rem;
     padding: 1rem 2rem;
     text-align: center;
@@ -128,7 +128,7 @@ tbody {
 }
 
 .blue {
-    color: blue;
+    color: #84d1fb;
     border: 2px solid rgb(137, 137, 230);
     border-radius: .5rem;
     padding: .5rem 1rem;
@@ -136,8 +136,8 @@ tbody {
 }
 
 .blue1 {
-    color: rgb(233, 232, 232);
-    background-color:  blue;
+    color: #afdfef;
+    background-color:  #0b92fb;
     padding: .8rem 1rem;
     border-radius: .5rem;
 }
@@ -183,7 +183,7 @@ button {
 
 .secondary {
     color: rgb(233, 232, 232);
-    background-color:  blue;
+    background-color:  #018eff;
 }
 
 
